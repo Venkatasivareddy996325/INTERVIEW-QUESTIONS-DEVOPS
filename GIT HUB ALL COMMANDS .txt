@@ -1,0 +1,63 @@
+git config --global user.name "username" -> is used to config the user name 
+git config --global user.email "email" -> is used to config the email
+git config --global user.name -> is used to check the configured user
+git config --global user.email -> is used to check the configured email
+git config --global unset user.name "user_name" -> is used to unconfigure the user
+git config --global unset user.email "user_email" -> is used to unconfigure the email
+git init -> is used to initialise the git
+git clone -> is used to clone the repository from github to local system
+touch -> is used to add a new file
+vi file_name -> is used to insert data into the file
+git add . or git add file_name -> is used to move the changes from working directory to staging area
+git commit -m "commit message" -> is used to move the changes from staging area to commit stage
+git push origin branch_name -> is used to move the changes from commit stage to repository
+git fetch -> is used to know the changes in the github, it will not disturb the working directory
+git merge -> is used to update the changes from github to local system after fetch
+git pull = git fetch + git merge -> is used to update the changes from github to local system
+history -> is used to see the used commands
+git status -> is used to see the changes are present in whish stage
+git status file_name -> is used to see the status of a particular file
+git log -> is used to see the commits....
+history
+git log --author="user_name" -> to see the logs of a specific user
+git log file_name -> is used to see the logs of a specific file
+git log --max-count=number_of_days -> is used to see the logs for required days
+git log --since=yyyy-mm-dd --until=yyyy-mm-dd -> is used to see the logs for specific period of time
+git log --since=yyyy-mm-dd --until=today -> is used to see the logs from specific date ti current date
+git restore --staged file_name -> is used to move the changes from staging area to working directory
+git reset --soft previous_commid_id -> is used to move the changes from commit stage to staaging area
+git rset --mixed previous_commit_id -> is used to move the changes from commit stage to working directory
+git reset --hard previous_commit_id -> is used to 
+git branch --> is used to see the list of brancehs
+git branch --set-upstream-to=origin/branchname branchname  after we need to enter git pull 
+git branch branch_name -> is used to create the new branch
+git checkout branch_name -> is used to shift from one branch to another branch
+git merge branch_name -> is used to merge the branch
+git branch -d branch_name -> is used to delete the branch in local system
+git push origin --delete branch_name -> is used to delete the branch in github
+git rebase branch_name -> is used to bring the linearty of the commits
+git commit --ammiend -> is used to replace the previous commit with new commit of your current branch
+git tag tag_name -> is used to create a tag, which can save the code as a zip or tar file
+git push origin tag_name -> is used to update the tag name
+git tag --list -> is used to see the list of tags
+git tag --delete tag_name -> is used to delete the tag in local syatem
+git push origin --delete tag_name -> is used to update the deleted tag in the github
+git stash -m "message" -> is used to store the temporary changes
+git stash apply -> is used to bring back stash file
+git stash list -> to see the list of stash files
+git stash clear -> is used to delete the stash list
+git stash drop stash_index -> is used to delete the specific stash
+git stash pop -> is used to delete the stash and apply the stash
+git stash clear-> delete all stashes...
+
+
+
+
+
+
+
+
+
+
+
+
